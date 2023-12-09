@@ -1,4 +1,4 @@
-# Jeepney Information System
+# Jeepney Information Website **Doobi**
 
 Welcome to the Jeepney Information System! This web application provides users with information about jeepneys, including routes displayed on a map through the MAPTILER API, jeepney details such as name, color, and maximum seats. Additionally, users can check the availability of jeepneys at different terminals and see the number of passengers already on board.
 
@@ -24,13 +24,22 @@ Welcome to the Jeepney Information System! This web application provides users w
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/jeepney-information-system.git`
-2. Navigate to the project directory: `cd jeepney-information-system`
+1. Clone the repository: `git clone https://github.com/IvnVllrl/doobi-react.git`
+2. Navigate to the project directory: `cd doobi-react`
 3. Install dependencies for the frontend: `npm install`
-4. Install PHP dependencies (if any) and configure your server.
-5. Set up the database with the provided SQL file.
-6. Configure the backend API endpoints in the frontend code.
-7. Start the development server: `npm run dev`
+4. Install Node.js modules: `npm install axios prop-types react-router-dom`
+5. Install XAMPP: [Download and install XAMPP](https://www.apachefriends.org/index.html).
+6. Place the entire project directory into the `htdocs` folder of your XAMPP installation.
+7. Start XAMPP and ensure that the Apache and MySQL services are running.
+8. Open phpMyAdmin and create a new database.
+9. Import the database structure by executing the SQL script:
+   - Open phpMyAdmin.
+   - Select the newly created database.
+   - Click on the "Import" tab.
+   - Choose the `jeepney-counter.sql` file from the project.
+   - Click "Go" to import the database structure.
+10. Configure the backend API endpoints in the frontend code to connect to your database.
+11. Start the development server: `npm run dev`
 
 ## Usage
 
@@ -38,17 +47,8 @@ Welcome to the Jeepney Information System! This web application provides users w
 2. Users can explore jeepney information and terminal availability.
 3. Admins can log in to access the admin dashboard for managing jeepney details and terminals.
 
-## Contributing
-
-We welcome contributions to enhance the Jeepney Information System. Please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - Thanks to MAPTILER for providing the API for displaying jeepney routes on the map.
-- Special thanks to our contributors and community for making this project possible.
 
 Feel free to reach out if you have any questions or issues. Happy jeepney exploring!

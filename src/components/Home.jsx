@@ -1,5 +1,7 @@
 import "../styles/index.css";
 
+import route from "../images/rroute.png";
+
 const terminalButton = () => {
   window.location.href = "terminal";
 };
@@ -19,7 +21,7 @@ const Home = () => {
         </button>
       </div>
       <div className="right-column">
-        <img src="/src/images/rroute.png" alt="Route" className="route" />
+        <img src={route} alt="Route" className="route" />
       </div>
     </div>
   );

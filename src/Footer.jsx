@@ -1,9 +1,17 @@
+import facebook from "./images/logo-footer/facebook.png";
+import github from "./images/logo-footer/github.png";
+import instagram from "./images/logo-footer/instagram.png";
+import twitter from "./images/logo-footer/twitter.png";
+import youtube from "./images/logo-footer/youtube.png";
+
+import logo from "./images/logo.png";
+
 const Footer = () => {
   return (
     <footer>
       <div className="footer-container">
         <div className="footer-left">
-          <img src="/src/images/logo.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
           <p>
             Discover passenger counts and explore detailed routes for a
             hassle-free commute. Empowering you with accurate data, Doobi is
@@ -19,39 +27,19 @@ const Footer = () => {
           <h2>Follow Us</h2>
           <div className="social-icons">
             <a href="#" className="icon">
-              <img
-                src="/src/images/logo-footer/facebook.png"
-                alt="Facebook"
-                className="iconLogo"
-              />
+              <img src={facebook} alt="Facebook" className="iconLogo" />
             </a>
             <a href="#" className="icon">
-              <img
-                src="/src/images/logo-footer/twitter.png"
-                alt="Twitter"
-                className="iconLogo"
-              />
+              <img src={twitter} alt="Twitter" className="iconLogo" />
             </a>
             <a href="#" className="icon">
-              <img
-                src="/src/images/logo-footer/instagram.png"
-                alt="Instagram"
-                className="iconLogo"
-              />
+              <img src={instagram} alt="Instagram" className="iconLogo" />
             </a>
             <a href="#" className="icon">
-              <img
-                src="/src/images/logo-footer/youtube.png"
-                alt="Youtube"
-                className="iconLogo"
-              />
+              <img src={youtube} alt="Youtube" className="iconLogo" />
             </a>
             <a href="#" className="icon">
-              <img
-                src="/src/images/logo-footer/github.png"
-                alt="GitHub"
-                className="iconLogo"
-              />
+              <img src={github} alt="GitHub" className="iconLogo" />
             </a>
           </div>
           <p>&copy; 2023 Doobi. All rights reserved.</p>

@@ -1,5 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
+import logo from "../images/logo.png";
 
 const AdminHeader = ({ setIsAdmin }) => {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ const AdminHeader = ({ setIsAdmin }) => {
     <header>
       <div className="logo">
         <NavLink to="/">
-          <img src="/src/images/logo.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </NavLink>
       </div>
       <nav>

@@ -1,0 +1,63 @@
+hi can you help me with my code?
+take note that this is only a basic website, just a project for my school not for a huge company
+
+our website consists of two entities, user and admin. the user can open the website then see bunches of information about jeepneys. They can see the jeepney's routes thru map usng MAPTILER API (so that they would know if the jeep will go to their destiantion), name, color, and maximum seats the jeep can have. Another feature is that the user can see in different terminals if there was a jeep or not, if ever there was, it will show how many passengers are already in. now in the admin, it's almost the same but with admin, they can add edit delete the jeeps, first, they can add, edit jeep's name, color, maximum seats, and upload or reupload the file that consists of the MAPTILER API. they can also delete it in case. lastly they can edit the number of passengers that are already inside the jeep by clicking the plus or minus button. this comes with database for jeepney info, jeepney terminal, and admin
+
+this is the description of my website. this consists of php, css, javascript, html files with json for maptiler.
+
+this is the breakdown of my folders:
+-css
+--admin-style.css
+--index.css
+--jeepney.css
+--jeep-style.css
+--style.css
+--terminal.css
+--terminal-style.css
+
+-font 
+--(not important)
+
+-img
+--(not important)
+
+-js
+--admin-jeep.js
+--admin-terminal.js
+--index.js
+--jeepney.js
+--terminal.js
+
+-map
+--(consists of html css js json for maptiler)
+
+-php
+--add_jeep.php
+--add_jeep_ajax.php
+--admin.php
+--admin-jeep.php
+--admin-terminal.php
+--delete_jeep.php
+--delete_jeep_ajax.php
+--fetch_data.php
+--fetch_info.php
+--jeep_connection.php
+--jeepney.php
+--login.php
+--pass_fetc.php
+--pass_info.php
+--save_changes.php
+--update_counter.php
+--update_jeep_ajax.php
+--view_route.php
+
+-index.html
+-jeepney.php
+-README.md
+-terminal.php
+
+
+now i want to convert these files into vite react meaning i will have jsx files, how to do it?
+
+
+
